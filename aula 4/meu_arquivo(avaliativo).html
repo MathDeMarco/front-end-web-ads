@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+</html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Form de música</title>
+    </head>
+    <body>
+        <header>
+            <h1><strong>Formulário de Preferências Músicais</strong></h1>
+        </header>
+        <main>
+            <section>
+                <form action="https://postman-echo.com/post" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div>
+                                    <label for="nome_id">Nome Completo:</label>
+                                    <input id="nome_id" name="nome" type="text" placeholder="João da Silva">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="email_id">Email:</label>
+                                    <input id="email_id" name="email" type="email" placeholder="carlinhos67@gmail.com">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="data_nasc_id">Data de nascimento:</label>
+                                    <input id="data_nasc_id" name="data_nasc" type="date">
+                                </div>
+                                <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Quais estilos musicais você mais gosta ?</legend>
+                            <div>
+                                <input id="msc_rap" name="musica" type="checkbox" value="rap">
+                                <label for="msc_rap_id">Rap</label>
+                            </div>
+                            <div>
+                                <input id="msc_rock" name="musica" type="checkbox" value="rock">
+                                <label for="msc_rock_id">Rock</label>
+                            </div>
+                            <div>
+                                <input id="msc_sertaneijo" name="musica" type="checkbox" value="sertaneijo">
+                                <label for="msc_sertaneijo_id">Sertaneijo</label>
+                            </div>
+                            <div>
+                                <input id="msc_funk_id" name="musica" type="checkbox" value="funk">
+                                <label for="msc_funk_id">Funk</label>
+                            </div>
+                            <div>
+                                <input id="msc_indie_id" name="musica" type="checkbox" value="indie">
+                                <label for="msc_indie_id">Indie</label>
+                            </div>
+                            <div>
+                                <label for="outro_id">Outro estilo:</label>
+                                <input id="outro_id" name="outro" type="text" placeholder="Eletrônica/K-pop etc...">
+                            </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Local</legend>
+                        <div>
+                            <label for="local_id">Em que locais você escuta música ?:</label>
+                            <input id="local_id" name="local" type="text" placeholder="Escola,trabalho...">
+                        </div>
+                        <legend>Frequência</legend>
+                        <div>
+                            <input id="muito_id" name="muito" type="checkbox" value="muito">
+                            <label for="muito_id">Muito</label>
+                        </div>
+                        <div>
+                            <input id="pouco_id" name="pouco" type="checkbox" value="pouco">
+                            <label for="pouco_id">Pouco</label>
+                        </div>
+                        <div>
+                            <input id="sempre_id" name="sempre" type="checkbox" value="sempre">
+                            <label for="sempre_id">Sempre que posso</label>
+                        </div>
+                        <div>
+                            <input id="asvezes_id" name="asvezes" type="checkbox" value="asvezes">
+                            <label for="asvezes_id">Ás vezes</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                            <legend>Qual a importância da música na sua rotina ?</legend>
+                            <div>
+                                <select>
+                                    <option value="pouco">Pouco</option>
+                                    <option value="muito">Muito</option>
+                                    <option value="demais">Demais</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <div>
+                            <button type="reset">Limpar dados</button>
+                            <button type="submit">Enviar cadidatura</button>
+                        </div>
+                    </fieldset>
+                </form>        
+            </section>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
