@@ -1,0 +1,44 @@
+{
+  "args": {
+
+  },
+  "data": {
+
+  },
+  "files": {
+
+  },
+  "form": {
+    "nome": "Matheus Assalin",
+    "email": "hdofnsadjfh@gmail.com",
+    "data_nasc": "2007-08-15",
+    "musica": [
+      "rock",
+      "indie"
+    ],
+    "outro": "",
+    "local": "",
+    "sempre": "sempre"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "sec-fetch-dest": "document",
+    "accept-encoding": "gzip, br",
+    "priority": "u=0, i",
+    "accept-language": "pt-BR",
+    "content-length": "847",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "content-type": "multipart/form-data; boundary=----WebKitFormBoundarysLS8pC14HFAAYzMk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.128.0 Chrome/148.0.7778.271 Electron/42.5.0 Safari/537.36",
+    "origin": "null",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "x-forwarded-proto": "https",
+    "cookie": "_cfuvid=NIgwRSxsenLBAHM9Cf1YhRC0rPM.seBqD5sp4HxQpJU-1788220744.768446-1.0.1.1-E_fclUNouPHYYB7fBcmY7L_S48bDUC1GLonjt5rBkhI"
+  },
+  "json": null,
+  "url": "https://postman-echo.com/post"
+}
